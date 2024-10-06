@@ -1,0 +1,313 @@
+body
+{
+    background-color: #edeae4;
+    color: #232a2f;
+    font-family: montserrat;
+}
+
+.nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(249, 248, 247, 0.95);
+    width: 100%;
+    height: 50px;
+}
+
+.container
+{
+    margin-top: 65px;
+}
+.nav-item
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-item a
+{
+    text-decoration: none;
+    color: #f9f8f7;
+    background-color: #232a2f;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.nav-item a:hover
+{
+    color: #adb8bb;
+    background-color: #153147;
+}
+
+.container-judul
+{
+
+    background-color: #153147;
+    color: #f9f8f7;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px;
+    max-width: 400px;
+    margin: 5px auto 5px;
+}
+
+.festika
+{
+    font-size: 35px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.container-judul p img
+{
+    height: 40px;
+}
+
+.container-judul span
+{
+    background-color: #f9f8f7;
+    color: #153147;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sub-container
+{
+    background-color: #f9f8f7;
+    margin: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.subjudul{
+    font-size: 30px;
+    text-align: center;
+    color: #153147;
+}
+.what-on-fstk
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lomba
+{
+    background-color: #153147;
+    color: #f9f8f7;
+    margin: 15px;
+    width: 250px;
+    height: 180px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.judul-lomba
+{
+    text-align: center;
+}
+
+.desc-lomba
+{
+    text-align: justify;
+    overflow: hidden;
+    font-size: 10px;
+    font-family: courier;
+    height: 35px;
+}
+
+.selengkapnya
+{
+    text-decoration: none;
+    font-size: 10px;
+    color: #232a2f;
+    background-color: #f9f8f7;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.selengkapnya:hover
+{
+    color: #f9f8f7;
+    background-color: #232a2f;
+}
+
+.medpart
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo-medpart
+{
+    height: 100px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.form
+{
+    margin-left: 8px;
+}
+input, textarea, select{
+    font-size: 100%;
+    font-family: montserrat;
+    color: #153147;
+    background-color: #edeae4;
+    border: 1px solid #232a2f;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+input:focus, textarea:focus, select:focus
+{
+    background-color: #f9f8f7;
+}
+
+input#radio
+{
+    display:inline;
+    width: auto;
+}
+.submit
+{
+    margin-top: 20px;
+}
+
+.contact-container
+{
+    background-color: #f9f8f7;
+    margin: 15px auto 15px;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 60%;
+}
+
+.find-us
+{
+    margin: 5px auto 5px;
+    display: block;
+    width: 70%;
+}
+.link
+{
+    background-repeat:no-repeat;
+	background-size: 20px ;
+	background-position: 8px;
+    background-color: #adb8bb;
+    padding: 5px 5px 5px 40px;
+    border-radius: 10px;
+}
+
+.link a
+{
+    text-decoration: none;
+    color: #232a2f;
+}
+
+.link a:hover
+{
+    text-decoration: underline;
+    color: #edeae4;
+}
+
+.link#email{
+	background-image: url(../assets/email.png)
+}
+
+.link#ig{
+	background-image: url(../assets/instagram.png)
+}
+
+.link#wa{
+	background-image: url(../assets/whatsapp.png)
+}
+
+.link#maps{
+	background-image: url(../assets/maps.png)
+}
+
+.link#web{
+	background-image: url(../assets/www.png)
+}
+
+.tentang
+{
+    text-align: justify;
+    margin: 30px;
+}
+
+.orang-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.orang-container img
+{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.orang
+{
+    display: block;
+    background-color: #153147;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.nama
+{
+    margin: 5px;
+    color: #f9f8f7;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.nama:hover
+{
+    text-decoration: underline;
+    color: #adb8bb;
+    cursor:pointer;
+}
+
+.jabatan
+{
+    margin-top: 0px;
+    color: #f9f8f7;
+    font-size: 8px;
+}
+
+.wrong-page
+{
+    margin: 10px auto 10px;
+    background-color: #f9f8f7;
+    text-align: center;
+    max-width: 350px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer
+{
+    text-align: center;
+    margin: 5px;
+    font-size: 10px;
+}

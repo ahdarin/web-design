@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festika by HMIF-UNAND</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="manifest" href="manifest.json" />
+    <script src="./app.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+           <li class="nav-item"><a href="about-us.html">About</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+    <div class="container-judul">
+        <p class="festika">Festika <br>
+        <span>by <img src="assets/hmif-unand.png" alt="hmif-unand" title="HMIF-UNAND" align="center"></span></p>
+    </div>
+
+    <div class="sub-container">
+        <p class="subjudul">Contact Us</p>
+        <div class="form">
+            <form id="myForm" onsubmit="showAlert(); return false;">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+        
+               <label for="kategori">Kategori Pesan:</label>
+                <select id="kategori" name="kategori" required>
+                    <option value="">-- Pilih Kategori --</option>
+                    <option value="pertanyaan">Pertanyaan</option>
+                    <option value="saran">Saran</option>
+                    <option value="masalah">Masalah</option>
+                </select>
+        </div>
+    
+                <div class="radio-group">
+                    <label>Apakah Anda ingin menerima balasan?</label>
+                    <input type="radio" name="balasan" value="ya" id="radio" required><label for="ya">Ya</label>
+                    <input type="radio" name="balasan" value="tidak" id="radio" required><label for="tidak">Tidak</label>
+                </div>
+        
+                <div class="submit">
+                    <button type="submit">Kirim Pesan</button>
+                </div>
+            </form>
+    
+        <script>
+            function showAlert() {
+                alert("Form berhasil dikirim");
+            }
+        </script>
+    </div>
+
+    <div class="contact-container">
+        <p class="subjudul">Find Us</p>
+        <div class="find-us">
+            <p class="link" id="email"><a href="mailto:hmifunand@gmail.com">hmifunand@gmail.com</a></p>
+            <p class="link" id="ig"><a href="https://instagram.com/hmif_unand">@hmif_unand</a></p>
+            <p class="link" id="wa"><a href="https://wa.me/6281275471093">WhatsApp (Ahda)</a></p>
+            <p class="link" id="maps"><a href="https://maps.app.goo.gl/ZmWu8MD1veM1bcgz8">Limau Manis, Pauh, Limau Manis, Kec. Pauh, Kota Padang, Sumatera Barat 25163</a></p>
+            <p class="link" id="web"><a href="https://himaif.lmp.web.id/">HMIF</a></p>
+      </div>
+    </div>
+</div>
+<footer>
+    <p>©2024 Ahda Rindang Al-Amin 2311531003</p>
+</footer>
+</body>
+</html>
